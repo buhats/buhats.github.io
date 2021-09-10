@@ -1,0 +1,339 @@
+html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#eryn-body {   
+    min-height: 100%; 
+    height: 100%;
+    margin: 10px 40px;
+    padding: 10px 45px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: rgb(230, 230, 230);
+    background-color: #000000;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+a:active {
+    color: rgb(230, 230, 230);
+    background-color: transparent;
+}
+
+.bio-text{
+    min-width: 80%;
+    margin: 20px 80px 20px 0px; 
+    padding: 40px 65px 0px 0px;
+}
+
+.bio-text p{
+    line-height: 30px; 
+    font-size: 18px;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}  
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color:rgb(230, 230, 230);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.container{
+    min-height: 35%;
+    min-width: 20%;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.container li{
+    margin: 15px 0;
+}
+
+.container ul {
+    line-height: 30px; 
+    font-size: 18px;
+}
+
+.container p.bio{
+    margin-bottom: 65px;
+}  
+
+/*headers within container. uses gradient from name class*/
+.cont-header {
+    font-family: titling-gothic-fb-wide,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0px 10px 5px 0px;
+    padding-right: 20px;
+    font-size: 48px;
+    animation: flow 20s ease-in-out infinite;
+    background: linear-gradient(-60deg, #d61c1c, #293cdf);
+    background-size: 300%;
+   
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.contact{
+    padding: 10px;
+    margin: 40px 10px 10px 10px;
+    height: 120px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    float: left;
+}
+
+.contact p {
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: titling-gothic-fb-wide,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.footer, .push{
+    clear: both;
+    width: 100%;    
+    height: 50px;
+    padding: 5px 0px;
+    font-size: 16px;
+    bottom: 16px;
+} 
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    /*text-decoration: underline;*/
+} 
+
+#header {
+    font-size:20px;
+    font-style: italic;
+}
+
+#eryn-h2 {
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px 10px 0px 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 48px;
+}
+
+#eryn-h3 {
+    font-family: titling-gothic-fb-wide,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0px 10px 5px 0px;
+    padding-right: 20px;
+    font-size: 48px;
+}
+
+
+a:link {
+    color: rgb(230, 230, 230);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* gradient text */
+.name {
+    animation: flow 20s ease-in-out infinite;
+    background: linear-gradient(-60deg, #d61c1c, #293cdf);
+    background-size: 300%;
+   
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.navbar{
+    width: 130px;
+    height: 112px;
+    position: fixed;
+    padding: 25px 40px 20px 20px;
+    right: 0;
+    text-align: right;
+}
+
+a.pagelinks {
+    color: #ffffff;
+    -webkit-transition: color 2s ease-out;
+    -moz-transition: color 2s ease-out;
+    -o-transition: color 2s ease-out;
+    transition: color 2s ease-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#b, #e, #w, #s, #c {
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px 10px 4px 0px;
+}
+
+/* colors for each pagelink hover */
+#b:hover {
+    color: #d61c1c;
+}
+#e:hover {
+    color: #d674a2;
+}
+#w:hover {
+    color: #812c7c;
+}
+#s:hover {
+    color: #6f29df;
+}
+#c:hover {
+    color: #293cdf;
+}
+
+a.squiggle {
+    color: rgb(230, 230, 230);
+    background: linear-gradient(to bottom, #ffffff33 100%, white 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    padding-bottom: 2px;
+}
+
+a.squiggle:hover {
+    color: rgb(230, 230, 230);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='red' opacity='60%' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 4px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.vcard img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.vcard {
+    text-align: right;
+    width: 15%;
+    float: right;
+    border: 1px solid rgba(255, 255, 255, 0.212);
+    border-radius: 4px;
+    padding: 25px;
+    line-height: 30px; 
+    font-size: 18px;
+}
+
+@keyframes flow {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+/* GROUP CSS BELOW */
+/* Applies a background and makes sure no margin around top bar */
+#group-body {
+    background-color:#eff7d5;
+    margin: 0;
+}
+
+/* Creates header at the top with bg color*/
+.header {
+    background-color:#c1cc9c;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    width: auto;
+    margin: 0;
+    top: 0;
+    left: 0;
+    
+}
+
+/* Styles individual image */
+.works-image {
+    height: 350px;
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+/* Make sure no bullets are shown, width is given properly, and a specific font is chosen */
+#works-list {
+    list-style: none;
+    width: auto;
+    font-family: 'Courier New';
+}
+
+/* Makes this list horizontal rather than vertical and spaces it properly */
+#works-list li {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#works-list li p {
+    text-align: center;
+}
+
+/* Space each member's photo and link properly */
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24%;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Formatting name of each member (link to their portfolio) */
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Courier New';
+    background-color:#ffffff;
+}
+
+.desc a:link{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Formatting logo image */
+#logo {
+    height: 100px;
+}
+
+
+
+
